@@ -7,5 +7,6 @@ export const API_OPTIONS = {
 };
 export const IMG_CDN_URL = 'https://image.tmdb.org/t/p/w500/';
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+console.log(OPENAI_KEY);
 
 // new api key = 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

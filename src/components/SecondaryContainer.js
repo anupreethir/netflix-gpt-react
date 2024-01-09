@@ -7,8 +7,8 @@ const SecondaryContainer = () => {
     console.log(movies, "movies");
     if (!movies) return <ShimmerUi></ShimmerUi>;
     return (
-        <div className="bg-black ">
-            <div className=" -mt-[5%] sm:-mt-[7%] md:-mt-[5%] lg:-mt-[8%]  z-10 px-10 relative">
+        <div className="">
+            <div className=" -mt-[5%] sm:-mt-[7%] md:-mt-[5%] lg:-mt-[8%]  z-10 px-10 relative bg-black">
                 <MovieList title={"Latest Release"} movies={movies.nowPlaying} />
                 <MovieList title={"Top Rated Movies"} movies={movies.topRated} />
                 <MovieList title={"Popular Movies"} movies={movies.popularMovies} />
